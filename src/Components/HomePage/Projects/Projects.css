@@ -1,0 +1,43 @@
+.technology-tag button{
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 7px 15px;
+    border-radius: 6px;
+}
+.project-slider img{
+    width: 100%;
+}
+.project-info{
+    background-color: #328ba8;
+    padding: 15px 35px;
+    margin-left: -45px;
+    z-index: 10;
+    border-radius: 7px;
+}
+.slide{
+    margin: 0 40px;
+}
+.swiper-button-prev::after{
+    padding-left: 70px;
+}
+.swiper-button-next::after{
+    padding-right: 70px;
+}
+
+.social-icon a{
+    margin-right: 25px;
+    font-size: 25px;
+}
+.heading{
+    color: #fff;
+}
+.heading span{
+    color: #09b5b5;
+    font-size: 41px;
+    font-weight: 700;
+    font-family: 'Graduate', cursive;
+
+}
