@@ -4,8 +4,10 @@ import Typewriter from 'typewriter-effect';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
+    
     return (
         <div className="p-5 row justify-content-evenly align-items-center">
             <div className="col-md-5 banner-text">
@@ -20,15 +22,17 @@ const Banner = () => {
                     }}
                 />
                 </h3>
-                <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
+                <p>A self-motivated enthusiastic Front End Developer with a deep interest in Javascript. and knowing some frameworks for the Front-End and the Backend. I am good at Javascript, ES6, React, REST API, React Bootstrap, Bootstrap4, HTML5, CSS3. and Familiar with Material UI,Node.js, Express.js, MongoDB, JSON.</p>
 
                 <div className="social-icon">
-                    <span> <FontAwesomeIcon icon={faEnvelope}/> </span>
-                    <span> <FontAwesomeIcon icon={faLinkedin}/> </span>
-                    <span> <FontAwesomeIcon icon={faGithub}/> </span>
+                    <a href="mailto:hasanrana178821@gmail.com" target="blank"> <FontAwesomeIcon icon={faEnvelope}/> </a>
+                    <a href="https://www.linkedin.com/in/hasan-rana-091803210/" target="blank"> <FontAwesomeIcon icon={faLinkedin}/> </a>
+                    <a href="https://github.com/hasanrana21" target="blank"> <FontAwesomeIcon icon={faGithub}/> </a>
                 </div>
                 
-                    <button type="button" className="primary-button">HIRE ME</button>
+                <Link to="/contact">
+                    <button className="btn primary-button">HIRE ME</button>
+                </Link>
             </div>
 
             <div className="col-md-7 banner-image">

@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import Blogs from '../Blogs/Blogs';
 import ContactSample from '../ContactSample/ContactSample';
+import Footer from '../Footer/Footer';
 import Projects from '../Projects/Projects';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
                 <Blogs></Blogs>
                 <ContactSample></ContactSample>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

@@ -19,6 +19,7 @@ const Contact = () => {
     return (
         <div className="container-fluid p-5 contact-form">
             <form className="contact-form" onSubmit={sendEmail}>
+                <h2>Stay In Touch</h2>
                 <label>Name</label>
                 <input type="text" name="name" placeholder="Full Name" required />
 
@@ -30,7 +31,8 @@ const Contact = () => {
 
 
                 <input type="submit" value="Submit" />
-                <p>Sending to <a href="mailto:hasanrana178821@gmail.com" target="blank">hasanrana178821@gmail.com</a></p>
+
+                <small style={{color: "#fff"}}>Sending to <a href="mailto:hasanrana178821@gmail.com" target="blank" style={{color: "#081f52"}}> hasanrana178821@gmail.com</a></small>
             </form>
             
         </div>

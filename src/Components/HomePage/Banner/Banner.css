@@ -18,27 +18,25 @@
 .banner-image img{
     height: 350px;
 }
-.social-icon span{
-    font-size: 31px;
+.social-icon a{
+    text-decoration: none;
     margin-right: 15px;
-    color: #fff;
+    color: #09b5b5;
     cursor: pointer;
 }
 
-button[type="button"]{
-    background-color: crimson;
-    border: 1px solid crimson;
+.primary-button{
+    background-color: #09b5b5;
     color: #fff;
-    padding: 10px 20px;
-    margin: 25px 0;
-    font-size: 15px;
-    font-weight: 500;
+    border-color: #09b5b5;
+    margin: 30px 0;
+    font-size: 17px;
+    font-weight: 600;
     letter-spacing: 3px;
-    border: none;
-    border-radius: 6px;
+    padding: 8px 20px;
+
 }
-button[type="button"]:hover{
+.primary-button:hover{
     background-color: #091736;
-    color: crimson;
-    border-color: crimson;
+    color: #09b5b5;
 }

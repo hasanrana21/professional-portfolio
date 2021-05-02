@@ -28,8 +28,8 @@ const Header = () => {
                             <li className="nav-item">
                             <Link to="/contact" className="nav-link" >Contact</Link>
                             </li>
-                            <li className="nav-item">
-                            <Link to="" className="nav-link" >RESUME</Link>
+                            <li className="nav-item mt-2">
+                                <a href='https://drive.google.com/uc?export=download&id=1gJWPMtDCI5bV2tisgwjXkitijCheRIiK' download className="resume" >RESUME</a>
                             </li>
                         </ul>
                     </div>
