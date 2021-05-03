@@ -11,7 +11,7 @@ const Header = () => {
             <nav className="navbar px-5 py-0 navbar-expand-lg header">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand"><h1 className="logo">H</h1></Link>
-                    <button className="navbar-toggler mobile-expand-menu" type="" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler mobile-expand-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"><FontAwesomeIcon icons={faBars} className="bars"/></span>
                     
                     </button>
