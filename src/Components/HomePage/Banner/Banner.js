@@ -41,7 +41,7 @@ const Banner = () => {
             
             <Rotate bottom right>
                 <div className="col-md-7 banner-image">
-                    <img src="https://i.ibb.co/ZSmB68h/IMG-20210123-132141.jpg" alt=""/>
+                    <img className="img-fluid"  src="https://i.ibb.co/ZSmB68h/IMG-20210123-132141.jpg" alt=""/>
                 </div>
             </Rotate>
         </div>

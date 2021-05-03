@@ -7,7 +7,7 @@ const BlogsCart = (props) => {
     return (
         <Flip top>
             <div className="col-md-4 blogs-card">
-                <img src={image} alt=""/>
+                <img className="img-fluid"  src={image} alt=""/>
                 <div className="blog-card-text">
                     <a href="https://hasanrana178821.medium.com/" target="blank">
                         <h5>{blog_name}</h5>   

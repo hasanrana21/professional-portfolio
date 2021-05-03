@@ -33,9 +33,9 @@ const ProjectsDataDetails = (props) => {
                             }} pagination={{
                             "clickable": true
                             }} navigation={true} className="mySwiper slide">
-                            <SwiperSlide> <img src={image1} alt=""/> </SwiperSlide>
-                            <SwiperSlide> <img src={image2} alt=""/> </SwiperSlide>
-                            <SwiperSlide> <img src={image3} alt=""/> </SwiperSlide>
+                            <SwiperSlide> <img className="img-fluid"  src={image1} alt=""/> </SwiperSlide>
+                            <SwiperSlide> <img className="img-fluid"  src={image2} alt=""/> </SwiperSlide>
+                            <SwiperSlide> <img className="img-fluid"  src={image3} alt=""/> </SwiperSlide>
                         </Swiper>
                     </div>
                 </Slide>

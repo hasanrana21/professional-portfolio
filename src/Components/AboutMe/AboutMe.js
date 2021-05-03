@@ -8,7 +8,7 @@ const AboutMe = () => {
             <div className="col-md-6 about-left">
                 <Slide left>
                     <div className="about-image text-center mb-4">
-                        <img src="https://i.ibb.co/ZSmB68h/IMG-20210123-132141.jpg" alt=""/>
+                        <img className="img-fluid"  src="https://i.ibb.co/ZSmB68h/IMG-20210123-132141.jpg" alt=""/>
                     </div>
                 </Slide>
                 <Slide right>
