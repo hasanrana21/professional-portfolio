@@ -3,6 +3,7 @@
     padding: 0;
     transition: .3s;
     border-radius: 5px;
+    width: 30%;
 }
 .blogs-card:hover{
     transform: scale(.97);
@@ -17,6 +18,9 @@
 .blog-card-text{
     padding: 0 15px;
 }
+.blog-card-text h5{
+    color: #091736;
+}
 
 
 /* // Responsive // */
@@ -30,5 +34,22 @@
         height: 300px;
         margin-bottom: 10px;
         border-radius: 5px;
+    }
+ }
+
+ @media (max-width: 575.98px) { 
+    .blogs-card img{
+        width: 100%;
+        height: 200px;
+    }
+    .blog-card-text h5{
+        font-size: 15px;
+    }
+    .blog-card-text p{
+        font-size: 12px;
+    }
+    .contact-button {
+        font-size: 14px;
+        padding: 25px;
     }
  }

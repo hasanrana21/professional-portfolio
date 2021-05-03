@@ -5,6 +5,9 @@
 .about-left {
     border-right: 3px solid #09b5b5;
 }
+.about-left p{
+    font-size: 13px;
+}
 .about-image img{
     height: 350px;
 }
@@ -17,3 +20,26 @@
     color: lightgray;
     margin-top: 20px;
 }
+
+
+
+/*// Responsive //*/
+@media (max-width: 575.98px) { 
+    /* .about-image{
+        margin-right: 14%;
+    } */
+    .about{
+        margin-left: 0 !important;
+        margin-bottom: 15% !important;
+    }
+    .about-left{
+        border-right: none;
+        border-bottom: 3px solid #09b5b5;
+        padding-bottom: 15px;
+    }
+    .about-right{
+        width: 450px;
+        margin-left: 12px !important;
+        margin-top: 20px !important;
+    }
+ }

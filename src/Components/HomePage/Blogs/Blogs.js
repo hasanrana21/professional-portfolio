@@ -12,7 +12,7 @@ const Blogs = () => {
     }, [])
     return (
             <div className="row container-fluid p-5">
-                <h2 className="mt-5 py-5 text-center heading">Some of <span>My Article</span></h2>
+                <h2 className="py-5 text-center heading">Some of <span>My Article</span></h2>
                 
                 {
                     blogs.map(blog => <BlogsCart blog={blog}></BlogsCart>)
