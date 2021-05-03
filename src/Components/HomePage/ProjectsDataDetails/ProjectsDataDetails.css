@@ -1,3 +1,4 @@
+
 .technology-tag button{
     background-color: #0a0a23;
     color: #fff;
@@ -7,18 +8,26 @@
     padding: 7px 15px;
     border-radius: 6px;
 }
+.project-slider{
+    border: 10px solid #09b5b5;
+    padding: 0;
+    border-radius: 10px;
+    margin-left: 30px;
+}
 .project-slider img{
     width: 100%;
+    height: 385px;
 }
 .project-info{
-    background-color: #328ba8;
+    background-color: #266479;
     padding: 15px 35px;
     margin-left: -45px;
     z-index: 10;
     border-radius: 7px;
+    margin-top: 25px;
 }
 .slide{
-    margin: 0 40px;
+    margin-right: 0;
 }
 .swiper-button-prev::after{
     padding-left: 70px;
@@ -27,9 +36,18 @@
     padding-right: 70px;
 }
 
-.social-icon a{
+/* .social-icon a{
     margin-right: 25px;
     font-size: 25px;
+} */
+.project-icon a{
+    background-color: lightgray;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.project-icon span{
+    margin-right: 7px;
 }
 .heading{
     color: #fff;

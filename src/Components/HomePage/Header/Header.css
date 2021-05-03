@@ -18,3 +18,13 @@
 .resume:hover{
     background-color: #091736;
 }
+.mobile-expand-menu{
+    border: 3px solid #09b5b5;
+}
+.mobile-expand-menu:focus{
+    color: #09b5b5;
+}
+.mobile-expand-menu span{
+    color: #09b5b5;
+    background-color: #09b5b5;
+}

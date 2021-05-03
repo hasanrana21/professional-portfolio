@@ -1,0 +1,23 @@
+[{
+    "id": 1,
+    "project_name": "Flash Shoots Photography Website (Full-Stack)",
+    "project_details": "An authentication single-page photography web app with a dashboard where people are able to book services with payment, see their booking, and also can review our services. On other hand, an Admin can see all the bookings, change the status of bookings, able to make another admin, and can delete the services."
+    ,
+    "image1": "https://i.ibb.co/m0kgX1N/flashshoots1.jpg",
+    "image2": "https://i.ibb.co/tmH8KFM/flashshoots2.jpg",
+    "image3": "https://i.ibb.co/jwth67b/flashshoots3.jpg"
+  }, {
+    "id": 2,
+    "project_name": "Laptop Village Website (Full-Stack)",
+    "project_details": "A React-based web application with authentication. In this web application, users can buy laptops by giving their information. And can see all their orders. On the other side, the admin has a dashboard and is able to add and delete the product.",
+    "image1": "https://i.ibb.co/VWkH3RY/laptop1.jpg",
+    "image2": "https://i.ibb.co/2WkLhGS/laptop2.jpg",
+    "image3": "https://i.ibb.co/8DwkLj5/laptop3.jpg"
+  }, {
+    "id": 3,
+    "project_name": " Dining Out Restaurant Website (Full-Stack)",
+    "project_details": "Develop an authenticate Single page web app where people can add to cart food with their information. Here the admin has a dashboard from which the admin can add any type of food ‍and can see all the ordered food of users.",
+    "image1": "https://i.ibb.co/92jFzmH/dining1.jpg",
+    "image2": "https://i.ibb.co/64rt3Bb/dining2.jpg",
+    "image3": "https://i.ibb.co/JvZJm5s/dining3.jpg"
+  }]

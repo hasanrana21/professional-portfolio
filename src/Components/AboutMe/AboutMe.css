@@ -1,0 +1,19 @@
+.about{
+    display: flex;
+    justify-content: end;
+}
+.about-left {
+    border-right: 3px solid #09b5b5;
+}
+.about-image img{
+    height: 350px;
+}
+.about-right{
+    width: 550px;
+    margin-left: 30px !important;
+    margin-top: 0 !important;
+}
+.project-info h4{
+    color: lightgray;
+    margin-top: 20px;
+}
