@@ -25,7 +25,7 @@ const Banner = () => {
                         }}
                     />
                     </h3>
-                    <p>A self-motivated enthusiastic Front End Developer with a deep interest in Javascript. and knowing some frameworks for the Front-End and the Backend. I am good at Javascript, ES6, React, REST API, React Bootstrap, Bootstrap4, HTML5, CSS3. and Familiar with Material UI,Node.js, Express.js, MongoDB, JSON.</p>
+                    <p>A self-motivated enthusiastic Front End Developer with a deep interest in Javascript. and knowing some frameworks for the Front-End and the Backend. I am good at Javascript, ES6, React, REST API, React Bootstrap, Bootstrap4, HTML5, CSS3. and Comfortable with Material UI,Node.js, Express.js, MongoDB, JSON.</p>
 
                     <div className="social-icon">
                         <a href="mailto:hasanrana178821@gmail.com" target="blank"> <FontAwesomeIcon icon={faEnvelope}/> </a>
