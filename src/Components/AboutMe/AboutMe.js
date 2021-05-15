@@ -22,7 +22,7 @@ const AboutMe = () => {
                 <div className="col-md-6 about-right project-info container-fluid">
                     <h2 className="heading text-center">Some of My <span>Skills</span></h2>
                     <div className="technology-tag">
-                        <h4>Front End</h4>
+                        <h5>Front End</h5>
                         <button>Javascript</button>
                         <button>ES6</button>
                         <button>React.js</button>
@@ -36,21 +36,21 @@ const AboutMe = () => {
                         <button>Material UI</button>
                     </div>
                     <div className="technology-tag">
-                        <h4>Backend</h4>
+                        <h5>Backend</h5>
                         <button>Node.js</button>
                         <button>Express.js</button>
                         <button>MongoDB</button>
                         <button>JSON</button>
                     </div>
                     <div className="technology-tag">
-                        <h4>Familiar</h4>
+                        <h5>Familiar</h5>
                         <button>Redux</button>
                         <button>React Native</button>
                         <button>Wordpress Customization</button>
                     </div>
                     <div className="technology-tag">
-                        <h4>Tools</h4>
-                        <button>Git</button>
+                        <h5>Tools</h5>
+                        <button>GitHub</button>
                         <button>NPM</button>
                         <button>Webpack</button>
                         <button>Chrome Dev Tool</button>

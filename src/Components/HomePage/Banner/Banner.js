@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import Bounce from 'react-reveal/Bounce';
-import Rotate from 'react-reveal/Rotate';
+import Slide from 'react-reveal/Slide';
 
 const Banner = () => {
     
@@ -39,11 +39,11 @@ const Banner = () => {
                 </div>
             </Bounce>
             
-            <Rotate bottom right>
+            <Slide bottom>
                 <div className="col-md-7 banner-image">
-                    <img className="img-fluid"  src="https://i.ibb.co/ZSmB68h/IMG-20210123-132141.jpg" alt=""/>
+                    <img className="img-fluid"  src="https://i.ibb.co/8czgD2W/portfolio-Edited.png" alt=""/>
                 </div>
-            </Rotate>
+            </Slide>
         </div>
     );
 };

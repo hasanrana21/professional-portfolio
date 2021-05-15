@@ -11,7 +11,7 @@ const Blogs = () => {
         setBlogs(blogsData);
     }, [])
     return (
-            <div className="row container-fluid p-5">
+            <div className="row container-fluid p-5 blog-section" style={{marginLeft: "30px"}}>
                 <h2 className="py-5 text-center heading">Some of <span>My Article</span></h2>
                 
                 {

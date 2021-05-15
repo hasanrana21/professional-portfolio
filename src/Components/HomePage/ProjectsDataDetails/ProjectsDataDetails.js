@@ -44,7 +44,7 @@ const ProjectsDataDetails = (props) => {
                     <div className="col-md-6 project-info container-fluid">
                         <span style={{color: 'lightgrey'}}>{id}</span>
                         <h4>{project_name}</h4>
-                        <p>{project_details}</p>
+                        <p> <small>{project_details}</small> </p>
                         
                         {id === 1 ?
                         <div>

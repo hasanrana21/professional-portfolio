@@ -20,7 +20,7 @@ const Footer = () => {
                         <a href="https://www.instagram.com/mr_hr_hasan/" target="blank"> <FontAwesomeIcon icon={faInstagram}/> </a>
                 </div>
 
-                <h5>&copy; 2021 || All Right Reserved</h5>
+                <h5>&copy; 2021 <span style={{fontSize: '17px'}}>||</span> All Right Reserved</h5>
             </div>
         </Bounce>
     );
