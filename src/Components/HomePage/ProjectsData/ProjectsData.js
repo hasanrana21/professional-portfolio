@@ -12,8 +12,8 @@ const ProjectsData = () => {
         setProjectsData(dataProject);
     }, [])
     return (
-        <div>
-        <h2 className="pt-5 mt-5 container-fluid text-center heading">Some of <span>My Projects</span></h2>
+        <div className="project-data-div">
+            <h2 className="pt-5 mt-5 container-fluid text-center heading">Some of <span>My Projects</span></h2>
             {
                 projectsData.map(project => <ProjectsDataDetails project={project}></ProjectsDataDetails>)
             }

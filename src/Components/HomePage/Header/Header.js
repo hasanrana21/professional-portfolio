@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import Slide from 'react-reveal/Slide';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand"><h1 className="logo">H</h1></Link>
                     <button className="navbar-toggler mobile-expand-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"><FontAwesomeIcon icons={faBars} className="bars"/></span>
+                    <span className="navbar-toggler-icon"><FontAwesomeIcon icon={faBars} className="bars"/></span>
                     
                     </button>
                     <Slide right>
@@ -34,7 +34,7 @@ const Header = () => {
                                 <Link to="/contact" className="nav-link" >Contact</Link>
                                 </li>
                                 <li className="nav-item mt-2">
-                                    <a href='https://drive.google.com/uc?export=download&id=1gJWPMtDCI5bV2tisgwjXkitijCheRIiK' download className="resume" >RESUME</a>
+                                    <a href='https://drive.google.com/uc?export=download&id=1cW9y6nEEUDpKZ_daSHALeU-JF3gWNA51' download className="resume" ><span><FontAwesomeIcon icon={faDownload}/></span> RESUME</a>
                                 </li>
                             </ul>
                         </div>

@@ -8,12 +8,12 @@ const AboutMe = () => {
             <div className="col-md-6 about-left">
                 <Slide left>
                     <div className="about-image text-center mb-4">
-                        <img className="img-fluid"  src="https://i.ibb.co/WK7dkKx/IMG-1556.jpg" alt=""/>
+                        <img className="img-fluid"  src="https://i.ibb.co/RY37h4D/aboutpic2.jpg" alt=""/>
                     </div>
                 </Slide>
                 <Slide right>
-                    <p>Hello there,<br/>
-                    This is Hasan Rana.I'm Jr. Front End Developer.I have knowledge of JavaScript, ES6, React.JS, Node.JS, Mongo Db, HTML, CSS, Bootstrap,  Firebase, Heroku, and Netlify. I also have knowledge of Communication and Quick Learning Skills. I think I would be a proper candidate for the Jr. Front End Developer position.When I was learning web development I always tried to do those things carefully. If I have made any mistake in any project I solve it easily because I have the Patience and problem-solving experience.
+                    <p>Hello there, ✋✋<br/>
+                    This is Hasan Rana.I'm Jr. Front End Developer.I have knowledge of JavaScript, ES6, React.JS, Node.JS, Mongo Db, HTML, CSS, Bootstrap,  Firebase, Heroku, and Netlify. I also have knowledge of Communication and Quick Learning Skills. When I was learning web development I always tried to do those things carefully. If I have made any mistake in any project I solve it easily because I have the Patience and problem-solving experience.
                     </p>
                 </Slide>
             </div>
@@ -46,7 +46,7 @@ const AboutMe = () => {
                         <h5>Familiar</h5>
                         <button>Redux</button>
                         <button>React Native</button>
-                        <button>Wordpress Customization</button>
+                        <button>Vue.js</button>
                     </div>
                     <div className="technology-tag">
                         <h5>Tools</h5>

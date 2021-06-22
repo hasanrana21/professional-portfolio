@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import blogsData from '../../FakeData/BlogsData/BlogsData.json';
 import BlogsCart from '../BlogsCart/BlogsCart';
 

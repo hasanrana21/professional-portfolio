@@ -14,14 +14,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Slide from 'react-reveal/Slide';
-import Rotate from 'react-reveal/Rotate';
 
 // install Swiper modules
 SwiperCore.use([Autoplay,Pagination,Navigation]);
 
 
 const ProjectsDataDetails = (props) => {
-    const { id, project_name, project_details, image1, image2, image3, image4 } = props.project;
+    const { id, project_name, project_details, image1, image2, image3 } = props.project;
     return (
         <>
             <div className="row project-section align-items-center container-fluid pt-5">
@@ -40,7 +39,7 @@ const ProjectsDataDetails = (props) => {
                     </div>
                 </Slide>
 
-                <Rotate bottom right>
+                <Slide bottom>
                     <div className="col-md-6 project-info container-fluid">
                         <span style={{color: 'lightgrey'}}>{id}</span>
                         <h4>{project_name}</h4>
@@ -97,7 +96,7 @@ const ProjectsDataDetails = (props) => {
                         
                     }
                     </div>
-                </Rotate>
+                </Slide>
             </div>
         </>
     );
