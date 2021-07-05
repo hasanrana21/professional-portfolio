@@ -39,7 +39,7 @@ const ProjectsDataDetails = (props) => {
                     </div>
                 </Slide>
 
-                <Slide bottom>
+                <Slide right>
                     <div className="col-md-6 project-info container-fluid">
                         <span style={{color: 'lightgrey'}}>{id}</span>
                         <h4>{project_name}</h4>
@@ -57,8 +57,8 @@ const ProjectsDataDetails = (props) => {
                                 <button>Firebase</button>
                             </div>
                             <div className="social-icon project-icon my-3">
-                                <a href="https://flash-shoots-complitesite-by-hasan.netlify.app/" target="blank"><span>Live</span><FontAwesomeIcon icon={faExternalLinkAlt}/></a>
-                                <a href="https://github.com/hasanrana21/flash-shoots-client" target="blank"><span>GitHub</span><FontAwesomeIcon icon={faGithub}/></a>
+                                <a href="https://flash-shoots-photography-fullstack.netlify.app/" target="blank"><span>Live</span><FontAwesomeIcon icon={faExternalLinkAlt}/></a>
+                                <a href="https://github.com/hasanrana21/flash-shoots-photograpy-2" target="blank"><span>GitHub</span><FontAwesomeIcon icon={faGithub}/></a>
                             </div>
                         </div>
                         :
@@ -74,8 +74,8 @@ const ProjectsDataDetails = (props) => {
                                 <button>Firebase</button>
                             </div>
                             <div className="social-icon project-icon my-3">
-                                <a href="https://laptop-village-fullstack-assignment10.netlify.app/" target="blank"><span>Live</span><FontAwesomeIcon icon={faExternalLinkAlt}/></a>
-                                <a href="https://github.com/hasanrana21/laptop-village-client" target="blank"><span>GitHub</span><FontAwesomeIcon icon={faGithub}/></a>
+                                <a href="https://laptop-village-fullstack.netlify.app/" target="blank"><span>Live</span><FontAwesomeIcon icon={faExternalLinkAlt}/></a>
+                                <a href="https://github.com/hasanrana21/laptop-villages-client-2" target="blank"><span>GitHub</span><FontAwesomeIcon icon={faGithub}/></a>
                             </div>
                         </div>
                         :
